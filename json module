@@ -1,0 +1,8 @@
+# In this you will know about 'json' module.
+
+import json
+
+data = '{"var1":"Umair", "var2":20}'
+
+parsed = json.loads(data)
+print(parsed['var2'])
